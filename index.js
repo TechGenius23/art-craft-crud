@@ -34,7 +34,7 @@ async function run() {
             const result=await curser.toArray()
             res.send(result)
         })
-
+        // data post
         app.post("/user",async(req,res)=>{
             const USER=req.body;
             console.log(USER);
